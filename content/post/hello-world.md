@@ -13,7 +13,7 @@ For now, I have the content being hosted for free on [Netifly](https://www.netli
 ##### Why [GitHub Pages](https://pages.github.com/)? ##### 
 Because all of the content on this site is actually stored on GitHub. 
 
-![GitHub repo of my blog](/images/GitHub-repo-for-my-blog.webp)
+![GitHub repo of my blog](/images/GitHub-repo-for-my-blog.png)
 
 That offers me a relatively permanent record of all the content. At the moment Netifly looks for changes to my blog repo and serves up the static pages.
 
