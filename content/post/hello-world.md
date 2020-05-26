@@ -27,6 +27,7 @@ That offers me a relatively permanent record of all the content. At the moment N
 * Install/integrate the Netlify CMS
 * Move site to GitHub Pages
 * Point custom domain to site
+* Programmatically archive and display my Twitter history
 * See if I can hook the CMS into Google Photos via an API; every image I capture on my own is in Google Photos.
 * Look at coding an image converter (or connecting to one using JS) so all images are .webp if supported and .jpeg/.gif/.png if not
 * Code something up to save multiple image sizes for better responsive web experience
