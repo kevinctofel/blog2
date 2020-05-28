@@ -11,4 +11,4 @@ Much of the detail was over my head in the presentations but I did get the gist 
 
 I'm looking forward to the second day, which is tomorrow, but again, I'm a n00b, so I'm just trying to get a feel for the overall vision. If I can pick up any details of specific patterns or implementations, that's a bonus!
 
-([^1]) Although I've been using computers and tinkering with code since the late 1970's, I don't have any formal education in software development. I started to pursue a 10-class Software Engineering certificate at my local community college in the fall of 2018 and I've completed 6 classes.
+([^1]: Although I've been using computers and tinkering with code since the late 1970's, I don't have any formal education in software development. I started to pursue a 10-class Software Engineering certificate at my local community college in the fall of 2018 and I've completed 6 classes.)
