@@ -3,8 +3,8 @@ title: "Attended my first dev conference: Jamstack"
 date: 2020-05-27T20:49:20-04:00
 draft: false
 ---
-![Jamstack Conference 2020](/images/Jamstac-conference-2020.jpg "Jamstack Conference 2020)
-Since I'm really only just beginning my delving into being a devloper[^1], I haven't yet attended any developer conferences. That changed today. I caught most of the live presenstations at Jamstack Conf Virtual 2020 and watched recordings of the ones I missed. 
+![Jamstack Conference 2020](/images/Jamstac-conference-2020.jpg)
+Since I'm really only just beginning my delving into being a devloper[^1], I haven't yet attended any developer conferences. That changed today. I caught most of the live presenstations at [Jamstack Conf Virtual 2020](https://jamstackconf.com/) and watched recordings of the ones I missed. 
 
 ##### Jamstack and event resources #####
 
