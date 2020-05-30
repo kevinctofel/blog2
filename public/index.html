@@ -24,7 +24,8 @@
 :root{--color-accent:#3279a8;}
 </style>
 
-  
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 
 </head>
 <body class='home type-page has-sidebar'>
@@ -236,6 +237,18 @@
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
 <script src='/assets/js/main.c3bcf2df.js'></script><script src='/js/custom.js'></script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 </body>
 
