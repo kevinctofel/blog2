@@ -1,9 +1,11 @@
 ---
-title: "Hello World"
-date: 2020-05-25T14:34:46-04:00
+title: Hello World
+date: 2020-05-25T18:34:46.000Z
 draft: false
-image: "/images/Google_NYC.webp"
-category: ["thoughts"]
+image: /images/Google_NYC.webp
+category:
+  - thoughts
+thumbnail: /images/Google_NYC.webp
 ---
 ##### It works! #####
 This post suggests that I correctly have my [Hugo-rendered](https://gohugo.io) site up and running. Check the link for more information on the Hugo open-source software, but essentially, it takes Markdown content and renders static site pages for much faster delivery than a traditional CMS with a database, such as Wordpress.
@@ -24,7 +26,7 @@ That offers me a relatively permanent record of all the content. At the moment N
 * Create/add favicon
 * Create templates for various types of content
 * Find and implement an open source commenting system
-* Install/integrate the Netlify CMS
+* ~~Install/integrate the Netlify CMS~~ *Completed, 5/30/2020*
 * Move site to GitHub Pages
 * Point custom domain to site
 * Programmatically archive and display my Twitter history
