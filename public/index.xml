@@ -30,5 +30,16 @@ Jamstack and event resources Much of the detail was over my head in the presenta
 For now, I have the content being hosted for free on Netlify which does offer a reasonable amount of hosting features at no cost.</description>
     </item>
     
+    <item>
+      <title>Git sub-modules: I finally see the power</title>
+      <link>http://www.example.com/post/i-see-the-power-of-git-submodules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/post/i-see-the-power-of-git-submodules/</guid>
+      <description>As I noted in my last post, I&amp;rsquo;m still a n00b developer. So that&amp;rsquo;s my defense in not knowing about Git sub-modules, which have been around for years.
+What&amp;rsquo;s a Git submodule? Essentially, as I understand it so far, Git sub-modules are linked external repos. So that allows me to add someone else&amp;rsquo;s code repository in my own, but with a catch: Their repo is linked from my repo.
+So what makes them powerful?</description>
+    </item>
+    
   </channel>
 </rss>
