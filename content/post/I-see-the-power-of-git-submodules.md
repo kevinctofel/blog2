@@ -1,7 +1,7 @@
 ---
 title: "Git sub-modules: I finally see the power"
-date: 2020-05-30-T16:00:00-04:00
-draft: fa
+date: 2020-05-30T21:10:43+00:00
+draft: false
 ---
 As I noted in my last post, I'm still a n00b developer. So that's my defense in not knowing about [Git sub-modules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), which have been around for years. 
 
