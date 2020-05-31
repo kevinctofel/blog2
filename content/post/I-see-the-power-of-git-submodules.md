@@ -1,7 +1,8 @@
 ---
 title: "Git sub-modules: I finally see the power"
-date: 2020-05-30T21:10:43+00:00
+date: 2020-05-30T21:10:43.000Z
 draft: false
+thumbnail: /images/Google_NYC.webp
 ---
 As I noted in my last post, I'm still a n00b developer. So that's my defense in not knowing about [Git sub-modules](https://git-scm.com/book/en/v2/Git-Tools-Submodules), which have been around for years. 
 
@@ -22,13 +23,13 @@ I recall having doing a two step process:
 1. Download the Apache Commons library into my Java project.
 2. Enable it with an import statement at the top of my code.
 
-I view Git sub-modules in roughly the same way, only there's nothing for me to download. Instead, I run a "git submodule add" comman followed by the URL of the repo that has code I want to use in my repo.
+I view Git sub-modules in roughly the same way, only there's nothing for me to download. Instead, I run a "git submodule add" command followed by the URL of the repo that has code I want to use in my repo.
 
 #### I used a submodule this blog theme
 
-My eyes opened to this functionality when creating this site because I wanted to use a customizable design theme but I didn't want to build it myself. So I found the one I wanted on Github and added [its repo](https://github.com/MunifTanjim/minimo/tree/5ba20e1c26abb3c199ce72e7b3224f48775945ad) via a submodule into mine. 
+My eyes opened to this functionality when creating this site because I wanted to use a customizable design theme but I didn't want to build it myself. So I found the one I wanted on GitHub and added [its repo](https://github.com/MunifTanjim/minimo/tree/5ba20e1c26abb3c199ce72e7b3224f48775945ad) via a submodule into mine. 
 
-Remember, all of the data on this site is actually stored in a Github repo, which is accessed by (Netlify.com); each time the repo changes, Netlify sees the change and uses Hugo to create static page files, which are then served up by Netlify. There's no PHP, no database and no webserver for me to deal with.
+Remember, all of the data on this site is actually stored in a Github repo, which is accessed by [Netlify](https;//www.Netlify.com); each time the repo changes, Netlify sees the change and uses [Hugo](https://go Hugo.io) to create static page files, which are then served up by Netlify. There's no PHP, no database and no webserver for me to deal with.
 
 As I continue to read more about sub-modules, I see that not everyone loves them. 
 
