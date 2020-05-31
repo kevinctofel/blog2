@@ -29,7 +29,7 @@ I view Git sub-modules in roughly the same way, only there's nothing for me to d
 
 My eyes opened to this functionality when creating this site because I wanted to use a customizable design theme but I didn't want to build it myself. So I found the one I wanted on GitHub and added [its repo](https://github.com/MunifTanjim/minimo/tree/5ba20e1c26abb3c199ce72e7b3224f48775945ad) via a submodule into mine. 
 
-Remember, all of the data on this site is actually stored in a Github repo, which is accessed by [Netlify](https;//www.Netlify.com); each time the repo changes, Netlify sees the change and uses \[Hugo](https://goHugo.io) to create static page files, which are then served up by Netlify. There's no PHP, no database and no webserver for me to deal with.
+Remember, all of the data on this site is actually stored in a Github repo, which is accessed by [Netlify](https;//www.Netlify.com); each time the repo changes, Netlify sees the change and uses [Hugo](https://goHugo.io) to create static page files, which are then served up by Netlify. There's no PHP, no database and no webserver for me to deal with.
 
 As I continue to read more about sub-modules, I see that not everyone loves them. 
 
