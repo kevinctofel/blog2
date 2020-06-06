@@ -18,6 +18,8 @@ Anyway, I decided to take this summer off from classes. The main reason? Last su
 
 I'm utterly fascinated now by web apps. Ironically, I thought I'd leverage my 10-course Software Engineering Certificate from the college into some type of mobile development. Now? I'm thinking not.
 
+![JavaScript Textbook](/images/javascript-textbook.jpg "JavaScript Textbook")
+
 So in the fall, I'll be taking my JavaScript course. And me being me, can't wait, so I've been tinkering on my own with simple JavaScript projects for the past few weeks.
 
 Here's one of them that lets you pick one of the three main crypto-currencies for a real-time price check. The script uses a web API to return the pricing information.
@@ -44,6 +46,7 @@ Here's one of them that lets you pick one of the three main crypto-currencies fo
       getPrice(currency);
     }
   </script>
+
   <script>
     function getPrice(currency) {
       let requestURL = 'https://min-api.cryptocompare.com/data/price?fsym=' + currency.value + '&tsyms=USD&api_key=e29b700b7cfd70faa0de907743ea4e186cd2e1f2f3b999332f7718be49feb6ae';
@@ -67,6 +70,7 @@ Here's one of them that lets you pick one of the three main crypto-currencies fo
       }
     }
   </script>
+
   </iframe>
 
 Again, it's a simple little project; I wanted to do something with an API since web apps are often powered by APIs.
