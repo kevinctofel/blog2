@@ -27,8 +27,8 @@ That offers me a relatively permanent record of all the content. At the moment N
 * Create templates for various types of content
 * Find and implement an open source commenting system
 * ~~Install/integrate the Netlify CMS~~ *Completed, 5/30/2020*
-* Move site to GitHub Pages
-* Point custom domain to site
+* ~~Move site to GitHub Pages~~ *Decided to use Netlify*
+* ~~Point custom domain to site~~ *Completed, 6/5/2020*
 * Programmatically archive and display my Twitter history
 * See if I can hook the CMS into Google Photos via an API; every image I capture on my own is in Google Photos.
 * Look at coding an image converter (or connecting to one using JS) so all images are .webp if supported and .jpeg/.gif/.png if not
