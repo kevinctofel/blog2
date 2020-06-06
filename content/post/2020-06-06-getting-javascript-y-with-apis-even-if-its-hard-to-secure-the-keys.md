@@ -22,57 +22,9 @@ I'm utterly fascinated now by web apps. Ironically, I thought I'd leverage my 10
 
 So in the fall, I'll be taking my JavaScript course. And me being me, can't wait, so I've been tinkering on my own with simple JavaScript projects for the past few weeks.
 
-Here's one of them that lets you pick one of the three main crypto-currencies for a real-time price check. The script uses a web API to return the pricing information.
+Here's one of them that lets you pick one of the three main crypto-currencies for a real-time price check. The script uses a web API to return the pricing information: Click [here to test the web app I have hosted on GitHub](https://java-script-seven.now.sh/).[^1]
 
-<div id="crypto">
-  <iframe>
-  <form>
-    <label form="coin">Choose a cryptocurrency:</label>
-    <select id="coin" name="coins">
-      <option value="BTC">Bitcoin</option>
-      <option value="LTC">Litecoin</option>
-      <option value="ETC">Etherium</option>
-      <input type="button" value="Submit" onclick="printCoin()">
-      <input type="reset" onclick="location.reload()">
-    </select>
-  </form>
-  <p id="choice"></p>
-  <p id="choicePrice"></p>
-</iframe>
-  <script>
-    function printCoin() {
-      currency = document.querySelector('#coin');
-      console.log(currency.value);
-      document.getElementById("choice").innerHTML = "You chose: " + currency.value;
-      getPrice(currency);
-    }
-  </script>
-
-  <script>
-    function getPrice(currency) {
-      let requestURL = 'https://min-api.cryptocompare.com/data/price?fsym=' + currency.value + '&tsyms=USD&api_key=e29b700b7cfd70faa0de907743ea4e186cd2e1f2f3b999332f7718be49feb6ae';
-      var request = new XMLHttpRequest();
-      request.open('GET', requestURL, true);
-      request.responseType = 'text';
-      request.send();
-      request.onload = function () {
-        if (request.readyState === request.DONE) {
-          var coinPrice = request.responseText;
-          // console.log(coinPrice);
-          var coinPriceData = [].slice.call(coinPrice)
-          // console.log(coinPriceData);
-          var i;
-          var currentValueUSD = "";
-          for (i = 7; i < (coinPriceData.length-1); i++) {
-            currentValueUSD = currentValueUSD + coinPriceData[i];
-          }
-        }
-        document.getElementById("choicePrice").innerHTML = "Current price is: $" + currentValueUSD;
-      }
-    }
-  </script>
-  </div>
-
+![JavaScript Crypto Pricing](images/JavaScript-crypto-pricing.png)
 
 Again, it's a simple little project; I wanted to do something with an API since web apps are often powered by APIs.
 
@@ -87,3 +39,5 @@ In this particular instance, I don't really care because I set the API permissio
 Sure, you can [hide the key on the backend if you want to use a JavaScript framework](https://medium.com/better-programming/how-to-hide-your-api-keys-c2b952bc07e6). Or you could create your own API plugin to call; [here's an example of doing so in WordPress](https://gomakethings.com/keeping-api-credentials-secret-with-vanilla-javascript/). Google's own API best practices suggest [limiting the API calls to a specified web page or domain](https://developers.google.com/maps/api-key-best-practices): That won't hide the keys but they'll be useless from any other domain. Unfortunately, the API I'm using doesn't offer me that option, else I'd use it.
 
 Again, there are ways to hide the keys from the frontend user but all of the ones I've seen require some backend functionality. There seems to be no true way to do this in a basic web app solely using native JavaScript and that shocks me.
+
+[^1]: I'm still researching how to embed a script in a blog post; with the pages written in Markdown and then converted to HTML, I don't yet see an easy way to add scripts since Markdown is generally ignoring them.
