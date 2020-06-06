@@ -24,6 +24,7 @@ So in the fall, I'll be taking my JavaScript course. And me being me, can't wait
 
 Here's one of them that lets you pick one of the three main crypto-currencies for a real-time price check. The script uses a web API to return the pricing information.
 
+<html>
 <iframe>
   <form>
     <label form="coin">Choose a cryptocurrency:</label>
@@ -70,8 +71,8 @@ Here's one of them that lets you pick one of the three main crypto-currencies fo
       }
     }
   </script>
-
   </iframe>
+  </html>
 
 Again, it's a simple little project; I wanted to do something with an API since web apps are often powered by APIs.
 
