@@ -34,7 +34,7 @@ Aside from learning how to write a script and use an API, I also learned somethi
 
 Many APIs, including the one I'm using, requires the private API key in a request. That makes my private key easy to read by anyone using my app. 
 
-In this particular instance, I don't really care because I set the API permission to read-only status. That's all I need and it's good practice not to "take" any extra perimissions your app won't use or need. Even so, this seems be a fundamental security hole in JavaScript.
+In this particular instance, I don't really care because I set the API permission to read-only status. That's all I need and it's good practice not to "take" any extra permissions your app won't use or need. Even so, this seems be a fundamental security hole in JavaScript.
 
 Sure, you can [hide the key on the backend if you want to use a JavaScript framework](https://medium.com/better-programming/how-to-hide-your-api-keys-c2b952bc07e6). Or you could create your own API plugin to call; [here's an example of doing so in WordPress](https://gomakethings.com/keeping-api-credentials-secret-with-vanilla-javascript/). Google's own API best practices suggest [limiting the API calls to a specified web page or domain](https://developers.google.com/maps/api-key-best-practices): That won't hide the keys but they'll be useless from any other domain. Unfortunately, the API I'm using doesn't offer me that option, else I'd use it.
 
