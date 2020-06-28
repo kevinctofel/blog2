@@ -20,7 +20,7 @@ So, I put together [a parts list](https://pcpartpicker.com/user/KevinCTofel/save
 
 I used to build PCs on my own about 30 years ago, so I have some experience in the build process. And literally, the only tool you need is a Philips-head screwdriver. Things haven't changed much.
 
-In an hour and 45 minutes, I had everything assembled and got the machine to POST, meaning, the power on self-test (POST) worked. It took longer to install Microsoft Windows on the machine than it did to build it.
+In an hour and 45 minutes, I had everything assembled and got the machine to POST, meaning, the power on self-test (POST) worked. It took longer to install Microsoft Windows and update all of the drivers and other key files on the machine than it did to build it.
 
 ![](/images/pc-internals.jpg)
 
