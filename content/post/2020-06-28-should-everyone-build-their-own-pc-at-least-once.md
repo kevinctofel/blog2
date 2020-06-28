@@ -31,3 +31,5 @@ I did notice that the system is running a little hotter than I'd like, so I spen
 ![](/images/img_1491.jpg)
 
 Again, if you just use the PC as another tool and don't care how it works, or you'd rather use a laptop, I get it. But there's a satisfying feeling of building your own computer that's customized to be exactly what you want. And you get an appreciation for the different parts, connections and the "how it all works together" information.
+
+By the way, I installed the [Linux Subsystem for Windows](https://docs.microsoft.com/en-us/windows/wsl/install-win10) on the box, just to see what Microsoft is up to. Essentially, this is the same feature Google added to Chromebooks and I use it everyday on those devices. More to follow as I continue exploring it but so far, I'm impressed.
