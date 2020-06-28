@@ -8,7 +8,7 @@ I'm going to answer my own question with a caveat. I think just about everyone s
 
 By "just about everyone", I mean everyone who needs a desktop computer, for starters. And if you simply don't care about what makes a computer work, that's fine too. You're exempt. ;) After all, PCs are simply commodity devices these days.
 
-I think it's worth knowing how things work, however, but that's just me. Then again, I'd never build my own car, even though I know how much of a car works. Then again, I do mod my vehicles with aftermarket parts, such as the short shifter I installed on my Fiesta ST a few weeks ago. I'll be swapping out the intercooler, exhaust and intake system as well. 
+I think it's worth knowing how things work, however, but that's just me. Of course,, I'd never build my own car, even though I know how much of a car works. Then again, I do mod my vehicles with aftermarket parts, such as the short shifter I installed on my Fiesta ST a few weeks ago. I'll be swapping out the intercooler, exhaust and intake system as well. 
 
 ![](/images/the-witcher-on-pc.jpg)
 
