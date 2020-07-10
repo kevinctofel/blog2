@@ -24,9 +24,11 @@ Since Unbounded.Cloud uses AWS Lamba serverless functions there is a cost but it
 
 ![Unbounded Cloud pricing](/images/unbounded-cloud-pricing.jpg)
 
-My initial thought is that the JSON objects for comments won't be too complicated to begin with: Name, Date, comment text along with unique IDs for posts and comments. And the underlying data structure of comments is a bit like a tree. At a high level:
+My initial thought is that the JSON objects for comments won't be too complicated to begin with: Name, Date, comment text along with unique IDs for posts and comments. And the underlying data structure of comments most similar to a tree. 
 
-1. There can be unlimited parent comments and child comments to parents.\
+At a high level:
+
+1. There can be unlimited parent comments and unlimited child comments to parents comments (although I may create an artificial limit).
 2. In the case of a reply to a reply, the second reply is a child to the first reply (which is a parent of that reply, but a child of the parent comment it is replying to.)
 
 Most of this post is really just a public statement to put some pressure on me to work on this project more than anything else. It's not like I can ask for feedback and ideas: I don't have commenting functions here yet! ;)
