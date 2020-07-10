@@ -24,7 +24,7 @@ Since Unbounded.Cloud uses AWS Lamba serverless functions there is a cost but it
 
 ![Unbounded Cloud pricing](/images/unbounded-cloud-pricing.jpg)
 
-My initial thought is that the JSON objects for comments won't be too complicated to begin with: Name, Date, comment text along with unique IDs for posts and comments. And the underlying data structure of comments most similar to a tree. 
+My initial thought is that the JSON objects for comments won't be too complicated to begin with: Name, Date, comment text along with unique IDs for posts and comments. And the underlying data structure of comments is similar to a tree. 
 
 At a high level:
 
