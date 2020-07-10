@@ -31,4 +31,6 @@ At a high level:
 1. There can be unlimited parent comments and unlimited child comments to parents comments (although I may create an artificial limit).
 2. In the case of a reply to a reply, the second reply is a child to the first reply (which is a parent of that reply, but a child of the parent comment it is replying to.)
 
+Of course, there are some existing solutions available to consider, which will be my fallback: [Commento](https://commento.io/), [Hashover](https://www.barkdull.org/software/hashover), [Schack](https://schnack.cool/), etc... But creating and implementing a solution will teach me more than just implementing something that already exists.
+
 Most of this post is really just a public statement to put some pressure on me to work on this project more than anything else. It's not like I can ask for feedback and ideas: I don't have commenting functions here yet! ;)
