@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Three weeks in, a $68 PC storage upgrade: SSD vs. M.2 NVMe"
+title: "Three weeks in, a $68 PC storage upgrade: SATA SSD vs. M.2 NVMe"
 date: 2020-07-17T19:53:22.447Z
 thumbnail: /images/Jamstac-Conference-2020.jpg
 ---
