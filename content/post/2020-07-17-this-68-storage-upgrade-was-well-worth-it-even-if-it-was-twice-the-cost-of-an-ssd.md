@@ -8,7 +8,7 @@ I dropped $68 on [this Western Digital 250 GB M.2 NVMe drive](https://www.wester
 
 When I [built my PC last month](https://www.kctofel.com/post/2020-06-28-should-everyone-build-their-own-pc-at-least-once/), I wanted to keep the budget low, so I put a less expensive 500 GB SSD SATA drive in to get started. It's fine for the basics and since it has flash memory inside it's faster than a traditional mechanical hard drive.
 
-M.2 NVMe drives are about an equal leap forward over SSD SATA drives, mostly because of the interface, which can handle far more bandwidth. And these drives are small:
+[M.2 NVMe drive](https://en.wikipedia.org/wiki/M.2)s are about an equal leap forward over SSD SATA drives, mostly because of the interface, which can handle far more bandwidth. And these drives are small:
 
 ![M.2 NVME drive](/images/img_1564.jpg "M.2 NVME drive")
 
@@ -32,13 +32,15 @@ Speeds for sequential reads and writes are around 70 to 80 percent faster. It's 
 
 ## How much more expensive are these drives?
 
-You do pay more for this type of drive and of course, you PC motherboard has to support it. Obviously mine does support PCIe 3 drives like this and it's also capable of handling the next-gen drive interface for PCIe 4, so I'm good for a while.
+You do pay more for this type of drive and of course, your PC motherboard has to support it. Obviously mine does support PCIe 3 drives like this and it's also capable of handling the next-gen drive interface for [PCIe 4](https://en.wikipedia.org/wiki/PCI_Express#PCI_Express_4.0), which should double these speeds in theory with the right drive, so I'm good for a while.
 
 How much more do you pay? About double for the same amount of storage. I paid $60 for 500 GB of SSD storage and this 250 GB drive was $68. Typically people price storage as cost per GB of capacity but that doesn't completely apply here. Yes you're getting less storage capacity but you're getting much faster speeds.
 
 My take: If you have a PC that can use the M.2 NVME drives and can afford it, get one the next time you need to add storage. 
 
-And a #ProTip: Not all of these are equal. Some can only use 2 PCIe lanes for bandwidth so they'll be about 50 percent slower than the drive I bought. My drive uses 4 lanes for data and some others use 3.
+And a #ProTip: ***Not all of these are equal***. 
+
+Some can only use 2 PCIe lanes for bandwidth so they'll be about 50 percent slower than the drive I bought. My drive uses 4 lanes for data and some others use 3. You get what you pay for.
 
 ## My next steps
 
