@@ -23,3 +23,13 @@ I already had VSCode installed on the Windows side, by the way. And that’s imp
 What this effectively means is that Windows apps can access the Linux filesystem, apps and such.
 
 For example, here's a quick and dirty "Hello World" blog post/page I created on the Linux side using Node.js and Gatsby. But the page is displayed in Chrome on Windows 10.
+
+![](/images/gatsby-in-wsl2.jpg)
+
+Notice that I'm using VSCode in Windows here. At the bottom left of VSCode, you can see that it's actually letting me work on the Linux instance. 
+
+Whoa.
+
+This reminds me of Google's Project Crostini, which debuted in 2018: It's a similar solution for Chromebooks. 
+
+You enable Linux on a Chromebook and you get a Linux container within a VM. That Linux instance looks native to Chrome OS and can run full Linux GUI desktop apps. Microsoft's WSL2 can't do that yet, however, the company is working on that.
