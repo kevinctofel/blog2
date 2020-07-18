@@ -33,3 +33,11 @@ Whoa.
 This reminds me of Google's Project Crostini, which debuted in 2018: It's a similar solution for Chromebooks. 
 
 You enable Linux on a Chromebook and you get a Linux container within a VM. That Linux instance looks native to Chrome OS and can run full Linux GUI desktop apps. Microsoft's WSL2 can't do that yet, however, the company is working on that.
+
+I've written extensively about using Linux for development on a Chromebook but the most recent useful article is this one: "[Can you learn to code in a college Computer Science program with a Chromebook?](https://www.aboutchromebooks.com/news/can-you-learn-to-code-in-a-college-computer-science-program-with-a-chromebook/)"
+
+The answer is yes if the development tools, IDEs and such that your program requires are available for Linux. For me it's a yes.
+
+![](/images/linked-lists-in-java-on-a-chromebook.jpg "Linked Lists in Java on a Chromebook")
+
+If WSL is of interest, I can't recommend this YouTube video from Scott Hanselman. It's 45 minutes long but I know I learned more than 45 things about WSL while watching it.
