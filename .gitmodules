@@ -1,2 +1,2 @@
 [submodule "themes/minimo"] 
-  path = themes/minimo
+  path = https://github.com/kevinctofel/themes/minimo
