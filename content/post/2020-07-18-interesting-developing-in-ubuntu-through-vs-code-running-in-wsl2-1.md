@@ -40,4 +40,4 @@ The answer is yes if the development tools, IDEs and such that your program requ
 
 ![](/images/linked-lists-in-java-on-a-chromebook.jpg "Linked Lists in Java on a Chromebook")
 
-If WSL is of interest, I can't recommend this YouTube video from Scott Hanselman. It's 45 minutes long but I know I learned more than 45 things about WSL while watching it.
+If WSL is of interest, I can't recommend [this YouTube video from Scott Hanselman](https://youtu.be/j0PPcUUtHlw). It's 45 minutes long but I know I learned more than 45 things about WSL while watching it.
