@@ -14,7 +14,7 @@ The first version was a little slow due to the architecture, but now Microsoft h
 
 This allows Windows 10 users to use Windows apps that interact quickly with Linux apps. For example, I installed and configured WSL2 and then grabbed Ubuntu from the Microsoft Store. (YES, the Microsoft Store is where you get the distros!)
 
-I upgrade Ubuntu packages as needed and installed Node.js and Gatsby, which is what I’m using to experiment with an open source blog platform that generates super fast static sites: More info here on what I’m doing.
+I upgrade Ubuntu packages as needed and installed Node.js and Gatsby, which is what I’m using to experiment with an open source blog platform that generates super fast static sites: [More info here on what I’m doing](https://www.kctofel.com/post/2020-06-18-the-great-gatsby-vs-hugo-for-static-site-generation/).
 
 I already had VSCode installed on the Windows side, by the way. And that’s important. Here’s why, in a general sense, per Microsoft:
 
